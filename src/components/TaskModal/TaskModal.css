@@ -1,0 +1,33 @@
+.MuiDialog-scrollPaper {
+  height: 70% !important;
+}
+
+.dialog-dropdown {
+  padding-bottom: 20px;
+}
+
+.dialog-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 60px;
+  padding: 10px;
+}
+
+.dialog-label {
+  padding-bottom: 5px;
+}
+
+.MuiTextarea-root {
+  max-height: 150px;
+}
+
+.MuiTextarea-textarea {
+  overflow: auto !important;
+}
+
+@media (min-width: 1200px) {
+  .MuiTextarea-root {
+    max-height: 100%;
+  }
+}

@@ -1,0 +1,29 @@
+:root {
+  --font-size-small: 0.875rem; /* 14px */
+  --font-size-medium: 1rem; /* 16px */
+  --font-size-large: 1.25rem; /* 20px */
+  --font-size-heading: 2rem; /* 32px */
+}
+
+.icon {
+  font-size: 24px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgb(0, 41, 77);
+}
+
+.icon:hover {
+  color: #0077b3;
+}
+
+.caret-icon {
+  margin-left: 5px;
+}
+
+@media (min-width: 1200px) {
+  .icon {
+    font-size: 40px;
+  }
+}
