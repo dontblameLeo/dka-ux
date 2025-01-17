@@ -75,16 +75,6 @@ function TaskList({
     setCurrentTaskListId(taskListId);
   }
 
-  // function scrollCarousel(direction: "left" | "right") {
-  //   const carousel = document.querySelector(".carousel");
-  //   const scrollAmount = 300;
-  //   if (direction === "left") {
-  //     carousel?.scrollBy({ left: -scrollAmount, behavior: "smooth" });
-  //   } else if (direction === "right") {
-  //     carousel?.scrollBy({ left: scrollAmount, behavior: "smooth" });
-  //   }
-  // }
-
   function filterByStatus(
     e: React.MouseEvent<HTMLDivElement>,
     status: TaskStatus,
